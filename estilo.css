@@ -215,7 +215,7 @@ section {
 }
 
 #cardapio section {
-    min-height: 80vh;
+    padding-bottom: 70vh;
 }
 
 .filtros {
@@ -308,7 +308,11 @@ section {
 }
 
 #section-instagram, #section-facebook {
-    margin: 10px 0;
+    margin: 20px 0;
+}
+
+#contato section {
+    padding-bottom: 10vh;
 }
 
 
