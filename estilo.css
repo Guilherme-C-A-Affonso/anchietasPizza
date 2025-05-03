@@ -183,7 +183,7 @@ section {
     z-index: 3;
 }
 
-#divPizzaAberta img {
+#imgPizzaAberta {
     max-width: 48vw;
     width: 40rem;
     height: 30rem;
@@ -449,13 +449,12 @@ footer {
         z-index: 3;
     }
 
-    #divPizzaAberta img {
+    #imgPizzaAberta {
         max-width: 90vw;
         width: 100%;
         height: auto;
         border-radius: 10px;
     }
-    
 
     iframe {
         width: 100%;
