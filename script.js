@@ -3,10 +3,6 @@ function abrirPizza(id) {
     document.getElementById("desfoque").onclick = fecharPizza;
     document.getElementById("divPizzaAberta").style.display = "flex";
     const pizzaElement = document.getElementById(id);
-    if (!pizzaElement) {
-        console.error(`Element with id "${id}" not found.`);
-        return;
-    }
     const img = pizzaElement.querySelector("img").src;
     const nome = pizzas.find(pizza => pizza.nome.replace(/\s+/g, '-').toLowerCase() === id).nome;
     const descricao = pizzas.find(pizza => pizza.nome.replace(/\s+/g, '-').toLowerCase() === id).descricao;
